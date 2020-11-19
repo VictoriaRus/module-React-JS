@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+      <h1>Аттестация модуль React JS</h1>
+      <p>
+        Выполнила Русецкая Виктория г.Минск.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="list">
+        <ul> Включающий в себя:
+            <li>Заголовок</li>
+          <li>Обзац текста</li>
+          <li>Список</li>
+        </ul>
+      </div>
     </div>
   );
 }
